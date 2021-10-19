@@ -13,7 +13,6 @@ int main()
     push(stack, a);
     printf("peek: %d\n", *((int*)peek(stack)));
     printf("pop: %d\n", *((int*)pop(stack)));
-    puts("ola");
 
     return 0;
 }

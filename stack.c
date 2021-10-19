@@ -38,8 +38,6 @@ void* peek(Stack* stack)
     if (stack->top == NULL)
         return NULL;
 
-    Node* toPeek = stack->top;
-    void* toReturn = toPeek->value;
-    return toReturn;
+    return stack->top->value;
 
 }
