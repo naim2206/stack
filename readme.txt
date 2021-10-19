@@ -1,3 +1,6 @@
+Naim Towfighian Ortiz
+Emiliano Gonzalez Hernandez
+
 Stack* create(): inicializa un stack vacío.
 
 void push(Stack* stack, void* value): agrega un nodo con el valor al que apunte value al stack.
